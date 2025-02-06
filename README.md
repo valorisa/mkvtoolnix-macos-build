@@ -35,31 +35,35 @@ First, clone this repository to your local machine:
 ```sh
 git clone https://github.com/valorisa/mkvtoolnix-macos-build.git
 cd mkvtoolnix-macos-build
-
+```
 
 
 Install Dependencies
 Install the necessary dependencies using Homebrew:
 
-
+```sh
 brew install gcc expat libogg libvorbis zlib boost ruby drake wxwidgets flac lzo bzip2 file curl
+```
 
 Build and Install libEBML
 Clone, build, and install libEBML:
-
+```sh
 ./libebml/build.sh
-
+```
 
 Build and Install libMatroska
+
 Clone, build, and install libMatroska:
-
+```sh
 ./libmatroska/build.sh
-
+```
 Build and Install MKVToolNix
+
 Clone, build, and install MKVToolNix:
 
-
+```sh
 ./mkvtoolnix/build.sh
+```
 
 Usage
 
