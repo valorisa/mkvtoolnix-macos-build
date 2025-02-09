@@ -38,27 +38,27 @@ cd mkvtoolnix-macos-build
 ```
 
 
-Install Dependencies
+### Install Dependencies
 Install the necessary dependencies using Homebrew:
 
 ```sh
 brew install gcc expat libogg libvorbis zlib boost ruby drake wxwidgets flac lzo bzip2 file curl
 ```
 
-Build and Install libEBML
+### Build and Install libEBML
 
 Clone, build, and install libEBML:
 ```sh
 ./libebml/build.sh
 ```
 
-Build and Install libMatroska
+### Build and Install libMatroska
 
 Clone, build, and install libMatroska:
 ```sh
 ./libmatroska/build.sh
 ```
-Build and Install MKVToolNix
+### Build and Install MKVToolNix
 
 Clone, build, and install MKVToolNix:
 
@@ -66,12 +66,13 @@ Clone, build, and install MKVToolNix:
 ./mkvtoolnix/build.sh
 ```
 
-Usage
+## Usage
 
 After installation, you can use MKVToolNix commands like mkvmerge, mkvinfo, and mkvextract from the terminal.
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
